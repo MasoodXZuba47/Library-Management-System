@@ -1,0 +1,72 @@
+# ─── Sensitive / Credentials ─────────────────────────────────
+*.env
+.env.*
+config.ini
+credentials.json
+secrets.*
+
+# ─── Database Dumps & Exports ────────────────────────────────
+*.sql.gz
+*.sql.bz2
+*.dump
+*.bak
+/exports/
+/backups/
+/dumps/
+
+# ─── MySQL Workbench ─────────────────────────────────────────
+*.mwb.bak
+*.mwbx
+
+# ─── JetBrains IDEs (DataGrip, IntelliJ, PyCharm, etc.) ─────
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# ─── VS Code ─────────────────────────────────────────────────
+.vscode/
+*.code-workspace
+
+# ─── OS Generated Files ──────────────────────────────────────
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+
+# ─── Logs & Temporary Files ──────────────────────────────────
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+tmp/
+temp/
+
+# ─── Node (if a front-end is ever added) ─────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ─── Python (if scripts are added) ───────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# ─── Docker ──────────────────────────────────────────────────
+.dockerignore
+docker-compose.override.yml
